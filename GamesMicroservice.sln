@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.API", "Game.API\Game.API.csproj", "{97002E28-B570-4901-8561-88B950967F6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59} = {BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.DB", "Game.DB\Game.DB.csproj", "{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97002E28-B570-4901-8561-88B950967F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97002E28-B570-4901-8561-88B950967F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97002E28-B570-4901-8561-88B950967F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97002E28-B570-4901-8561-88B950967F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7915CC-03AC-4DD8-AF7B-6C27A6E19F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9413CB24-3DFF-4CC8-AE19-EC000AD30D54}
+	EndGlobalSection
+EndGlobal
