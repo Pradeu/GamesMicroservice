@@ -9,6 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Game.API/Game.API.csproj", "Game.API/"]
+COPY ["Game.DB/Game.DB.csproj", "Game.DB/"]
 RUN dotnet restore "./Game.API/Game.API.csproj"
 COPY . .
 WORKDIR "/src/Game.API"

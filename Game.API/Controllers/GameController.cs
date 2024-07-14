@@ -57,6 +57,14 @@ namespace Game.API.Controllers
             {
                 query = query.OrderByDescending(p => p.Name);
             }
+            else if (sort == "scoresCountDesc")
+            {
+                query = query.OrderByDescending(p => p.ScoresCount);
+            }
+            else if (sort == "scoreDesc")
+            {
+                query = query.OrderByDescending(p => p.Score);
+            }
 
             int total = query.Count();
 
